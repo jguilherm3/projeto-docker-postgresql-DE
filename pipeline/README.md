@@ -1,8 +1,8 @@
-🚀 Data Engineering Pipeline: Lakehouse & Orquestração
+Data Engineering Pipeline: Lakehouse & Orquestração
 
 Este repositório documenta a construção de um ecossistema de Engenharia de Dados completo, integrando automação de arquivos não estruturados (PDFs), ingestão de dados estruturados (NY Taxi Data) e orquestração de pipelines via Docker e Apache Airflow.
 
-📋 Sobre o Projeto
+# Sobre o Projeto
 
 O projeto aborda dois desafios principais do mundo real da engenharia de dados:
 
@@ -10,7 +10,7 @@ Data Cleaning & Organization (Unstructured): Automação e normalização de nom
 
 Data Ingestion & Orchestration (Structured): Construção de um Data Warehouse local usando PostgreSQL e Docker, com pipelines de ingestão orquestrados e conteinerizados, replicando uma arquitetura de produção (ETL do NY Taxi Dataset).
 
-🏗️ Arquitetura e Tecnologias
+# Arquitetura e Tecnologias
 
 O ambiente foi totalmente conteinerizado para garantir reprodutibilidade.
 
@@ -26,7 +26,7 @@ Banco de Dados: PostgreSQL 16.
 
 Interface DB: pgAdmin4 e pgcli (via terminal).
 
-⚙️ Funcionalidades Detalhadas
+##  Funcionalidades Detalhadas
 
 1. Organizador Inteligente de Vestibulares
 
@@ -46,7 +46,7 @@ Desafio Superado: Configuração de rede Docker (bridge network) permitindo que 
 
 Otimização: Uso de chunksize no Pandas para processamento eficiente de memória.
 
-🚀 Como Executar
+## Como Executar
 
 Pré-requisitos
 
@@ -107,7 +107,7 @@ Problema: O caractere \ de quebra de linha do Linux não funciona nativamente no
 
 Solução: Utilizar acento grave ` no Windows ou rodar o comando em linha única.
 
-📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 .
 ├── dags/                   # DAGs do Airflow (ETL Orchestration)
@@ -118,7 +118,8 @@ Solução: Utilizar acento grave ` no Windows ou rodar o comando em linha única
 └── README.md
 
 
-✒️ Autor
+## Autor
 
 Guilherme Martins
 Engenheiro de Dados em formação, focado em resolver problemas complexos de infraestrutura e manipulação de dados.
+
